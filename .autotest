@@ -3,7 +3,7 @@ require 'autotest/timestamp'
 require 'autotest/growl'
 
 #This turns off screen clearing between tests.  Leave it "false" until you ensure that autotest is running properly, otherwise you may miss some errors written to the screen.  
-Autotest::Growl::clear_terminal = true
+Autotest::Growl::clear_terminal = false
 
 #Turn on Growl notifications of test runs when files are changed.
 Autotest::Growl::show_modified_files = true
